@@ -1,0 +1,1028 @@
+[
+{
+  "name":"com.wzs.GroovyScript",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"com.wzs.script1",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"<init>","parameterTypes":[] }, 
+    {"name":"doCall","parameterTypes":[] }
+  ]
+},
+{
+  "name":"groovy.lang.Binding",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.Buildable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.Closure",
+  "allDeclaredMethods":true
+},
+{
+  "name":"groovy.lang.ExpandoMetaClass",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.GString",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"build","parameterTypes":["groovy.lang.GroovyObject"] }, 
+    {"name":"charAt","parameterTypes":["int"] }, 
+    {"name":"compareTo","parameterTypes":["java.lang.Object"] }, 
+    {"name":"length","parameterTypes":[] }, 
+    {"name":"subSequence","parameterTypes":["int","int"] }, 
+    {"name":"toString","parameterTypes":[] }, 
+    {"name":"writeTo","parameterTypes":["java.io.Writer"] }
+  ]
+},
+{
+  "name":"groovy.lang.GroovyCallable",
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.GroovyObject",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.GroovyObjectSupport",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"getMetaClass","parameterTypes":[] }, 
+    {"name":"setMetaClass","parameterTypes":["groovy.lang.MetaClass"] }
+  ]
+},
+{
+  "name":"groovy.lang.GroovySystem"
+},
+{
+  "name":"groovy.lang.MetaClass",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.MetaClassImpl",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true
+},
+{
+  "name":"groovy.lang.MetaMethod",
+  "allDeclaredMethods":true
+},
+{
+  "name":"groovy.lang.MetaObjectProtocol",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.MetaProperty",
+  "allDeclaredMethods":true
+},
+{
+  "name":"groovy.lang.MutableMetaClass",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.Range",
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.Script",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true
+},
+{
+  "name":"groovy.lang.Writable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.lang.groovydoc.GroovydocHolder",
+  "allPublicMethods":true
+},
+{
+  "name":"groovy.sql.GroovyResultSet",
+  "allPublicMethods":true
+},
+{
+  "name":"java.awt.Component",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"getFont","parameterTypes":[] }, 
+    {"name":"imageUpdate","parameterTypes":["java.awt.Image","int","int","int","int","int"] }, 
+    {"name":"postEvent","parameterTypes":["java.awt.Event"] }, 
+    {"name":"remove","parameterTypes":["java.awt.MenuComponent"] }
+  ]
+},
+{
+  "name":"java.awt.ItemSelectable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.awt.MenuContainer",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.awt.event.ActionListener",
+  "allPublicMethods":true
+},
+{
+  "name":"java.awt.image.ImageObserver",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.Closeable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.DataInput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.DataOutput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.Flushable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.InputStream",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"close","parameterTypes":[] }]
+},
+{
+  "name":"java.io.ObjectInput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.ObjectOutput",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.ObjectStreamConstants",
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.OutputStream",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"close","parameterTypes":[] }, 
+    {"name":"flush","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.io.Reader",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"close","parameterTypes":[] }, 
+    {"name":"read","parameterTypes":["java.nio.CharBuffer"] }
+  ]
+},
+{
+  "name":"java.io.Serializable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.io.Writer",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"append","parameterTypes":["char"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence","int","int"] }, 
+    {"name":"close","parameterTypes":[] }, 
+    {"name":"flush","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.AbstractStringBuilder",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"append","parameterTypes":["char"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence"] }, 
+    {"name":"append","parameterTypes":["java.lang.CharSequence","int","int"] }, 
+    {"name":"charAt","parameterTypes":["int"] }, 
+    {"name":"length","parameterTypes":[] }, 
+    {"name":"subSequence","parameterTypes":["int","int"] }, 
+    {"name":"toString","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Appendable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.AutoCloseable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.CharSequence",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.ClassLoader",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Cloneable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Comparable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Enum",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"compareTo","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"java.lang.Iterable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Module"
+},
+{
+  "name":"java.lang.Object",
+  "allDeclaredFields":true,
+  "allDeclaredMethods":true,
+  "allDeclaredConstructors":true,
+  "methods":[
+    {"name":"equals","parameterTypes":["java.lang.Object"] }, 
+    {"name":"hashCode","parameterTypes":[] }, 
+    {"name":"toString","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.Process",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.lang.Readable",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.Runnable",
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.AccessibleObject",
+  "methods":[{"name":"getAnnotations","parameterTypes":[] }]
+},
+{
+  "name":"java.lang.reflect.AnnotatedElement",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.Executable",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"getAnnotation","parameterTypes":["java.lang.Class"] }, 
+    {"name":"getDeclaredAnnotations","parameterTypes":[] }, 
+    {"name":"getDeclaringClass","parameterTypes":[] }, 
+    {"name":"getModifiers","parameterTypes":[] }, 
+    {"name":"getName","parameterTypes":[] }, 
+    {"name":"getTypeParameters","parameterTypes":[] }, 
+    {"name":"isSynthetic","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.lang.reflect.GenericDeclaration",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.Member",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.lang.reflect.Type",
+  "allPublicMethods":true
+},
+{
+  "name":"java.nio.charset.Charset",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"compareTo","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"java.nio.file.Path",
+  "allPublicMethods":true
+},
+{
+  "name":"java.nio.file.Watchable",
+  "allPublicMethods":true
+},
+{
+  "name":"java.sql.ResultSet",
+  "allPublicMethods":true
+},
+{
+  "name":"java.sql.ResultSetMetaData",
+  "allPublicMethods":true
+},
+{
+  "name":"java.sql.Wrapper",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.ZoneId",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.time.chrono.ChronoLocalDate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.chrono.ChronoLocalDateTime",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.chrono.ChronoPeriod",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.chrono.ChronoZonedDateTime",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.temporal.Temporal",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.temporal.TemporalAccessor",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.temporal.TemporalAdjuster",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.temporal.TemporalAmount",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.temporal.TemporalField",
+  "allPublicMethods":true
+},
+{
+  "name":"java.time.temporal.TemporalUnit",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.AbstractCollection",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"add","parameterTypes":["java.lang.Object"] }, 
+    {"name":"addAll","parameterTypes":["java.util.Collection"] }, 
+    {"name":"clear","parameterTypes":[] }, 
+    {"name":"contains","parameterTypes":["java.lang.Object"] }, 
+    {"name":"containsAll","parameterTypes":["java.util.Collection"] }, 
+    {"name":"isEmpty","parameterTypes":[] }, 
+    {"name":"iterator","parameterTypes":[] }, 
+    {"name":"remove","parameterTypes":["java.lang.Object"] }, 
+    {"name":"removeAll","parameterTypes":["java.util.Collection"] }, 
+    {"name":"retainAll","parameterTypes":["java.util.Collection"] }, 
+    {"name":"size","parameterTypes":[] }, 
+    {"name":"toArray","parameterTypes":[] }, 
+    {"name":"toArray","parameterTypes":["java.lang.Object[]"] }
+  ]
+},
+{
+  "name":"java.util.AbstractList",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"add","parameterTypes":["int","java.lang.Object"] }, 
+    {"name":"add","parameterTypes":["java.lang.Object"] }, 
+    {"name":"addAll","parameterTypes":["int","java.util.Collection"] }, 
+    {"name":"clear","parameterTypes":[] }, 
+    {"name":"equals","parameterTypes":["java.lang.Object"] }, 
+    {"name":"get","parameterTypes":["int"] }, 
+    {"name":"hashCode","parameterTypes":[] }, 
+    {"name":"indexOf","parameterTypes":["java.lang.Object"] }, 
+    {"name":"iterator","parameterTypes":[] }, 
+    {"name":"lastIndexOf","parameterTypes":["java.lang.Object"] }, 
+    {"name":"listIterator","parameterTypes":[] }, 
+    {"name":"listIterator","parameterTypes":["int"] }, 
+    {"name":"remove","parameterTypes":["int"] }, 
+    {"name":"set","parameterTypes":["int","java.lang.Object"] }, 
+    {"name":"subList","parameterTypes":["int","int"] }
+  ]
+},
+{
+  "name":"java.util.AbstractMap",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"clear","parameterTypes":[] }, 
+    {"name":"containsKey","parameterTypes":["java.lang.Object"] }, 
+    {"name":"containsValue","parameterTypes":["java.lang.Object"] }, 
+    {"name":"entrySet","parameterTypes":[] }, 
+    {"name":"equals","parameterTypes":["java.lang.Object"] }, 
+    {"name":"get","parameterTypes":["java.lang.Object"] }, 
+    {"name":"hashCode","parameterTypes":[] }, 
+    {"name":"isEmpty","parameterTypes":[] }, 
+    {"name":"keySet","parameterTypes":[] }, 
+    {"name":"put","parameterTypes":["java.lang.Object","java.lang.Object"] }, 
+    {"name":"putAll","parameterTypes":["java.util.Map"] }, 
+    {"name":"remove","parameterTypes":["java.lang.Object"] }, 
+    {"name":"size","parameterTypes":[] }, 
+    {"name":"values","parameterTypes":[] }
+  ]
+},
+{
+  "name":"java.util.Calendar",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"compareTo","parameterTypes":["java.lang.Object"] }]
+},
+{
+  "name":"java.util.Collection",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Enumeration",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.EventListener",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Iterator",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.List",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Map",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Queue",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.ResourceBundle",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.Set",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.SortedMap",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.SortedSet",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.Spliterator",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.TimeZone",
+  "allDeclaredMethods":true
+},
+{
+  "name":"java.util.concurrent.BlockingQueue",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.concurrent.Callable",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.concurrent.Future",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.DoubleFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.DoublePredicate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.IntFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.IntPredicate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.LongFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.LongPredicate",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.ToDoubleFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.ToIntFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.function.ToLongFunction",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.regex.MatchResult",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.stream.BaseStream",
+  "allPublicMethods":true
+},
+{
+  "name":"java.util.stream.Stream",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.accessibility.Accessible",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.script.ScriptEngine",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.AbstractButton",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"addItemListener","parameterTypes":["java.awt.event.ItemListener"] }, 
+    {"name":"getSelectedObjects","parameterTypes":[] }, 
+    {"name":"removeItemListener","parameterTypes":["java.awt.event.ItemListener"] }
+  ]
+},
+{
+  "name":"javax.swing.AbstractListModel",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"addListDataListener","parameterTypes":["javax.swing.event.ListDataListener"] }, 
+    {"name":"removeListDataListener","parameterTypes":["javax.swing.event.ListDataListener"] }
+  ]
+},
+{
+  "name":"javax.swing.Action",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.ComboBoxModel",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.JComponent",
+  "allDeclaredMethods":true,
+  "methods":[{"name":"getTransferHandler","parameterTypes":[] }]
+},
+{
+  "name":"javax.swing.ListModel",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.MenuElement",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.MutableComboBoxModel",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.SwingConstants",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.TransferHandler$HasGetTransferHandler",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.event.ListDataListener",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.table.AbstractTableModel",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"addTableModelListener","parameterTypes":["javax.swing.event.TableModelListener"] }, 
+    {"name":"getColumnClass","parameterTypes":["int"] }, 
+    {"name":"getColumnName","parameterTypes":["int"] }, 
+    {"name":"isCellEditable","parameterTypes":["int","int"] }, 
+    {"name":"removeTableModelListener","parameterTypes":["javax.swing.event.TableModelListener"] }, 
+    {"name":"setValueAt","parameterTypes":["java.lang.Object","int","int"] }
+  ]
+},
+{
+  "name":"javax.swing.table.TableColumnModel",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.table.TableModel",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.tree.MutableTreeNode",
+  "allPublicMethods":true
+},
+{
+  "name":"javax.swing.tree.TreeNode",
+  "allPublicMethods":true
+},
+{
+  "name":"org.apache.groovy.datetime.extensions.DateTimeExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.groovy.datetime.extensions.DateTimeStaticExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.groovy.nio.extensions.NioExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.groovy.sql.extensions.SqlExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.groovy.swing.extensions.SwingExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.apache.groovy.xml.extensions.XmlExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.ast.ClassCodeVisitorSupport",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"addError","parameterTypes":["java.lang.String","org.codehaus.groovy.ast.ASTNode"] }, 
+    {"name":"visitAssertStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.AssertStatement"] }, 
+    {"name":"visitBlockStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.BlockStatement"] }, 
+    {"name":"visitBreakStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.BreakStatement"] }, 
+    {"name":"visitCaseStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.CaseStatement"] }, 
+    {"name":"visitCatchStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.CatchStatement"] }, 
+    {"name":"visitClass","parameterTypes":["org.codehaus.groovy.ast.ClassNode"] }, 
+    {"name":"visitConstructor","parameterTypes":["org.codehaus.groovy.ast.ConstructorNode"] }, 
+    {"name":"visitContinueStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ContinueStatement"] }, 
+    {"name":"visitDeclarationExpression","parameterTypes":["org.codehaus.groovy.ast.expr.DeclarationExpression"] }, 
+    {"name":"visitDoWhileLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.DoWhileStatement"] }, 
+    {"name":"visitExpressionStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ExpressionStatement"] }, 
+    {"name":"visitField","parameterTypes":["org.codehaus.groovy.ast.FieldNode"] }, 
+    {"name":"visitForLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.ForStatement"] }, 
+    {"name":"visitIfElse","parameterTypes":["org.codehaus.groovy.ast.stmt.IfStatement"] }, 
+    {"name":"visitMethod","parameterTypes":["org.codehaus.groovy.ast.MethodNode"] }, 
+    {"name":"visitProperty","parameterTypes":["org.codehaus.groovy.ast.PropertyNode"] }, 
+    {"name":"visitReturnStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ReturnStatement"] }, 
+    {"name":"visitSwitch","parameterTypes":["org.codehaus.groovy.ast.stmt.SwitchStatement"] }, 
+    {"name":"visitSynchronizedStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.SynchronizedStatement"] }, 
+    {"name":"visitThrowStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ThrowStatement"] }, 
+    {"name":"visitTryCatchFinally","parameterTypes":["org.codehaus.groovy.ast.stmt.TryCatchStatement"] }, 
+    {"name":"visitWhileLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.WhileStatement"] }
+  ]
+},
+{
+  "name":"org.codehaus.groovy.ast.CodeVisitorSupport",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"visitArgumentlistExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ArgumentListExpression"] }, 
+    {"name":"visitArrayExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ArrayExpression"] }, 
+    {"name":"visitAssertStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.AssertStatement"] }, 
+    {"name":"visitAttributeExpression","parameterTypes":["org.codehaus.groovy.ast.expr.AttributeExpression"] }, 
+    {"name":"visitBinaryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.BinaryExpression"] }, 
+    {"name":"visitBitwiseNegationExpression","parameterTypes":["org.codehaus.groovy.ast.expr.BitwiseNegationExpression"] }, 
+    {"name":"visitBlockStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.BlockStatement"] }, 
+    {"name":"visitBooleanExpression","parameterTypes":["org.codehaus.groovy.ast.expr.BooleanExpression"] }, 
+    {"name":"visitBreakStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.BreakStatement"] }, 
+    {"name":"visitBytecodeExpression","parameterTypes":["org.codehaus.groovy.classgen.BytecodeExpression"] }, 
+    {"name":"visitCaseStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.CaseStatement"] }, 
+    {"name":"visitCastExpression","parameterTypes":["org.codehaus.groovy.ast.expr.CastExpression"] }, 
+    {"name":"visitCatchStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.CatchStatement"] }, 
+    {"name":"visitClassExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ClassExpression"] }, 
+    {"name":"visitClosureExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ClosureExpression"] }, 
+    {"name":"visitClosureListExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ClosureListExpression"] }, 
+    {"name":"visitConstantExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ConstantExpression"] }, 
+    {"name":"visitConstructorCallExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ConstructorCallExpression"] }, 
+    {"name":"visitContinueStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ContinueStatement"] }, 
+    {"name":"visitDeclarationExpression","parameterTypes":["org.codehaus.groovy.ast.expr.DeclarationExpression"] }, 
+    {"name":"visitDoWhileLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.DoWhileStatement"] }, 
+    {"name":"visitExpressionStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ExpressionStatement"] }, 
+    {"name":"visitFieldExpression","parameterTypes":["org.codehaus.groovy.ast.expr.FieldExpression"] }, 
+    {"name":"visitForLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.ForStatement"] }, 
+    {"name":"visitGStringExpression","parameterTypes":["org.codehaus.groovy.ast.expr.GStringExpression"] }, 
+    {"name":"visitIfElse","parameterTypes":["org.codehaus.groovy.ast.stmt.IfStatement"] }, 
+    {"name":"visitLambdaExpression","parameterTypes":["org.codehaus.groovy.ast.expr.LambdaExpression"] }, 
+    {"name":"visitListExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ListExpression"] }, 
+    {"name":"visitMapEntryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MapEntryExpression"] }, 
+    {"name":"visitMapExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MapExpression"] }, 
+    {"name":"visitMethodCallExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MethodCallExpression"] }, 
+    {"name":"visitMethodPointerExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MethodPointerExpression"] }, 
+    {"name":"visitMethodReferenceExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MethodReferenceExpression"] }, 
+    {"name":"visitNotExpression","parameterTypes":["org.codehaus.groovy.ast.expr.NotExpression"] }, 
+    {"name":"visitPostfixExpression","parameterTypes":["org.codehaus.groovy.ast.expr.PostfixExpression"] }, 
+    {"name":"visitPrefixExpression","parameterTypes":["org.codehaus.groovy.ast.expr.PrefixExpression"] }, 
+    {"name":"visitPropertyExpression","parameterTypes":["org.codehaus.groovy.ast.expr.PropertyExpression"] }, 
+    {"name":"visitRangeExpression","parameterTypes":["org.codehaus.groovy.ast.expr.RangeExpression"] }, 
+    {"name":"visitReturnStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ReturnStatement"] }, 
+    {"name":"visitShortTernaryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ElvisOperatorExpression"] }, 
+    {"name":"visitSpreadExpression","parameterTypes":["org.codehaus.groovy.ast.expr.SpreadExpression"] }, 
+    {"name":"visitSpreadMapExpression","parameterTypes":["org.codehaus.groovy.ast.expr.SpreadMapExpression"] }, 
+    {"name":"visitStaticMethodCallExpression","parameterTypes":["org.codehaus.groovy.ast.expr.StaticMethodCallExpression"] }, 
+    {"name":"visitSwitch","parameterTypes":["org.codehaus.groovy.ast.stmt.SwitchStatement"] }, 
+    {"name":"visitSynchronizedStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.SynchronizedStatement"] }, 
+    {"name":"visitTernaryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.TernaryExpression"] }, 
+    {"name":"visitThrowStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ThrowStatement"] }, 
+    {"name":"visitTryCatchFinally","parameterTypes":["org.codehaus.groovy.ast.stmt.TryCatchStatement"] }, 
+    {"name":"visitTupleExpression","parameterTypes":["org.codehaus.groovy.ast.expr.TupleExpression"] }, 
+    {"name":"visitUnaryMinusExpression","parameterTypes":["org.codehaus.groovy.ast.expr.UnaryMinusExpression"] }, 
+    {"name":"visitUnaryPlusExpression","parameterTypes":["org.codehaus.groovy.ast.expr.UnaryPlusExpression"] }, 
+    {"name":"visitVariableExpression","parameterTypes":["org.codehaus.groovy.ast.expr.VariableExpression"] }, 
+    {"name":"visitWhileLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.WhileStatement"] }
+  ]
+},
+{
+  "name":"org.codehaus.groovy.ast.GroovyClassVisitor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.ast.GroovyCodeVisitor",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.ast.NodeMetaDataHandler",
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.ast.expr.Expression",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.control.ProcessingUnit",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.jsr223.ScriptExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.jsr223.ScriptStaticExtensions",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.macro.matcher.ASTMatcher",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.macro.matcher.ASTNodePredicate",
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.macro.matcher.ContextualClassCodeVisitor",
+  "allDeclaredMethods":true,
+  "methods":[
+    {"name":"visitArrayExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ArrayExpression"] }, 
+    {"name":"visitAssertStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.AssertStatement"] }, 
+    {"name":"visitAttributeExpression","parameterTypes":["org.codehaus.groovy.ast.expr.AttributeExpression"] }, 
+    {"name":"visitBinaryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.BinaryExpression"] }, 
+    {"name":"visitBitwiseNegationExpression","parameterTypes":["org.codehaus.groovy.ast.expr.BitwiseNegationExpression"] }, 
+    {"name":"visitBlockStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.BlockStatement"] }, 
+    {"name":"visitBooleanExpression","parameterTypes":["org.codehaus.groovy.ast.expr.BooleanExpression"] }, 
+    {"name":"visitBreakStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.BreakStatement"] }, 
+    {"name":"visitBytecodeExpression","parameterTypes":["org.codehaus.groovy.classgen.BytecodeExpression"] }, 
+    {"name":"visitCaseStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.CaseStatement"] }, 
+    {"name":"visitCastExpression","parameterTypes":["org.codehaus.groovy.ast.expr.CastExpression"] }, 
+    {"name":"visitCatchStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.CatchStatement"] }, 
+    {"name":"visitClass","parameterTypes":["org.codehaus.groovy.ast.ClassNode"] }, 
+    {"name":"visitClassExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ClassExpression"] }, 
+    {"name":"visitClosureExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ClosureExpression"] }, 
+    {"name":"visitClosureListExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ClosureListExpression"] }, 
+    {"name":"visitConstantExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ConstantExpression"] }, 
+    {"name":"visitConstructorCallExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ConstructorCallExpression"] }, 
+    {"name":"visitContinueStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ContinueStatement"] }, 
+    {"name":"visitDoWhileLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.DoWhileStatement"] }, 
+    {"name":"visitExpressionStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ExpressionStatement"] }, 
+    {"name":"visitField","parameterTypes":["org.codehaus.groovy.ast.FieldNode"] }, 
+    {"name":"visitFieldExpression","parameterTypes":["org.codehaus.groovy.ast.expr.FieldExpression"] }, 
+    {"name":"visitForLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.ForStatement"] }, 
+    {"name":"visitGStringExpression","parameterTypes":["org.codehaus.groovy.ast.expr.GStringExpression"] }, 
+    {"name":"visitIfElse","parameterTypes":["org.codehaus.groovy.ast.stmt.IfStatement"] }, 
+    {"name":"visitListExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ListExpression"] }, 
+    {"name":"visitMapEntryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MapEntryExpression"] }, 
+    {"name":"visitMapExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MapExpression"] }, 
+    {"name":"visitMethodCallExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MethodCallExpression"] }, 
+    {"name":"visitMethodPointerExpression","parameterTypes":["org.codehaus.groovy.ast.expr.MethodPointerExpression"] }, 
+    {"name":"visitNotExpression","parameterTypes":["org.codehaus.groovy.ast.expr.NotExpression"] }, 
+    {"name":"visitPostfixExpression","parameterTypes":["org.codehaus.groovy.ast.expr.PostfixExpression"] }, 
+    {"name":"visitPrefixExpression","parameterTypes":["org.codehaus.groovy.ast.expr.PrefixExpression"] }, 
+    {"name":"visitProperty","parameterTypes":["org.codehaus.groovy.ast.PropertyNode"] }, 
+    {"name":"visitPropertyExpression","parameterTypes":["org.codehaus.groovy.ast.expr.PropertyExpression"] }, 
+    {"name":"visitRangeExpression","parameterTypes":["org.codehaus.groovy.ast.expr.RangeExpression"] }, 
+    {"name":"visitReturnStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ReturnStatement"] }, 
+    {"name":"visitShortTernaryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.ElvisOperatorExpression"] }, 
+    {"name":"visitSpreadExpression","parameterTypes":["org.codehaus.groovy.ast.expr.SpreadExpression"] }, 
+    {"name":"visitSpreadMapExpression","parameterTypes":["org.codehaus.groovy.ast.expr.SpreadMapExpression"] }, 
+    {"name":"visitStaticMethodCallExpression","parameterTypes":["org.codehaus.groovy.ast.expr.StaticMethodCallExpression"] }, 
+    {"name":"visitSwitch","parameterTypes":["org.codehaus.groovy.ast.stmt.SwitchStatement"] }, 
+    {"name":"visitSynchronizedStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.SynchronizedStatement"] }, 
+    {"name":"visitTernaryExpression","parameterTypes":["org.codehaus.groovy.ast.expr.TernaryExpression"] }, 
+    {"name":"visitThrowStatement","parameterTypes":["org.codehaus.groovy.ast.stmt.ThrowStatement"] }, 
+    {"name":"visitTryCatchFinally","parameterTypes":["org.codehaus.groovy.ast.stmt.TryCatchStatement"] }, 
+    {"name":"visitTupleExpression","parameterTypes":["org.codehaus.groovy.ast.expr.TupleExpression"] }, 
+    {"name":"visitUnaryMinusExpression","parameterTypes":["org.codehaus.groovy.ast.expr.UnaryMinusExpression"] }, 
+    {"name":"visitUnaryPlusExpression","parameterTypes":["org.codehaus.groovy.ast.expr.UnaryPlusExpression"] }, 
+    {"name":"visitVariableExpression","parameterTypes":["org.codehaus.groovy.ast.expr.VariableExpression"] }, 
+    {"name":"visitWhileLoop","parameterTypes":["org.codehaus.groovy.ast.stmt.WhileStatement"] }
+  ]
+},
+{
+  "name":"org.codehaus.groovy.macro.methods.MacroGroovyMethods",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.DefaultGroovyMethodsSupport",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.DefaultGroovyStaticMethods",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.callsite.CallSite",
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberDiv",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberMinus",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberMultiply",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.NumberNumberPlus",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.BooleanArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.BooleanArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ByteArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ByteArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.CharacterArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.CharacterArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.DoubleArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.DoubleArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.FloatArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.FloatArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.IntegerArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.IntegerArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.LongArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.LongArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ObjectArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ObjectArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ShortArrayGetAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.runtime.dgmimpl.arrays.ShortArrayPutAtMetaMethod",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.codehaus.groovy.transform.ErrorCollecting",
+  "allDeclaredMethods":true,
+  "allPublicMethods":true
+},
+{
+  "name":"org.codehaus.groovy.vmplugin.v8.PluginDefaultGroovyMethods",
+  "allDeclaredMethods":true
+},
+{
+  "name":"org.codehaus.groovy.vmplugin.v9.Java9",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"org.w3c.dom.Element",
+  "allPublicMethods":true
+},
+{
+  "name":"org.w3c.dom.Node",
+  "allPublicMethods":true
+},
+{
+  "name":"org.w3c.dom.NodeList",
+  "allPublicMethods":true
+},
+  {
+    "name":"jdk.internal.jrtfs.JrtFileSystemProvider",
+    "allDeclaredFields":true,
+    "allDeclaredMethods":true,
+    "allDeclaredConstructors":true
+  }
+]
